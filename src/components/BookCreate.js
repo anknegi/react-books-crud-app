@@ -14,13 +14,13 @@ const BookCreate = () => {
         createBook(title)
     }
     return (
-        <di className="book-create">
+        <div className="book-create">
             <form onSubmit={handleSubmit}>
                 <label htmlFor="bookTitle">Book Title</label>
                 <input className="input" value={title} onChange={handleTitleChange} />
                 <button className="button">Create!</button>
             </form>
-        </di>
+        </div>
     )
 }
 
